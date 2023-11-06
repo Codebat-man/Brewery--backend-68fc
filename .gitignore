@@ -1,0 +1,35 @@
+# Ignore node_modules directory
+node_modules/
+
+# Ignore log files and error output
+npm-debug.log
+yarn-error.log
+
+# Ignore environment-specific .env files
+.env
+.env.local
+.env.*.local
+
+# Ignore built output
+/build
+/dist
+/out
+/coverage
+/.next
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore dependencies that should be installed by npm/yarn
+/package-lock.json
+/yarn.lock
+
+# Ignore editor/IDE files
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
